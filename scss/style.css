@@ -379,11 +379,16 @@ nav {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-align: center;
-}
-
-.promo__subscription {
-  font-size: 48px;
-  font-family: "Bold";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .promo__subscription {
@@ -394,6 +399,18 @@ nav {
 .promo__subscription-small {
   font-size: 18px;
   font-family: "Light";
-  max-width: 447;
+  width: 25%;
+  word-wrap: normal;
+  font-weight: bold;
+}
+
+.promo__item {
+  position: relative;
+}
+
+.promo__item-star {
+  position: absolute;
+  top: 5px;
+  right: -5px;
 }
 /*# sourceMappingURL=style.css.map */
