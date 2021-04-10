@@ -1,0 +1,126 @@
+@import "_normalize.scss";
+@font-face {
+			font-family: "Bold";
+			src:url("../fonts/OpenSansCondensed-Bold.ttf") format("truetype");
+			font-style: bold;
+			font-weight: normal;
+	}
+    @font-face {
+        font-family: "Light";
+        src:url("../fonts/OpenSansCondensed-Light.ttf") format("truetype");
+        font-style: normal;
+        font-weight: normal;
+}
+
+body{ 
+    font-family: "Light";
+}
+.main_container{
+    width: 1270px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.bunner{
+    padding-top:  36px;
+    background-image: url("./../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    box-sizing: border-box;
+
+}
+
+.bunner__header{
+     display: flex;
+      justify-content: space-between;
+      align-items: center;
+ }
+nav {
+    min-width: 40%;   
+}
+.burger_menu__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Bold";
+}
+.burger_menu__items{ 
+    font-family: "Bold";
+        font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+.header__search-input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 125px;
+}
+.header__search{
+    position: relative;
+}
+.header__search::before{
+    content: "";
+    position: absolute;
+    width: 125px;
+    height: 2px;
+    background-color: #fff;
+    bottom: 0;
+}
+.header__search::after{
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background: url(/images/search.svg) no-repeat;
+    right: 4px;
+}
+.bunner__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 292px;
+}
+.bunner__content-h1{
+    font-size: 165px;
+    color: white;
+    margin: 0;
+    font-family: "Bold";
+}
+.bunner__content-h2{
+    font-size: 24x;
+    color: white;
+    margin: 0;
+    font-family: "Bold";
+}
+.banner__content-button{
+    background: #16DCF0;
+    width: 150px;
+    height: 49.99px;
+    font-family: "Bold";
+    color: #fff;
+    border-radius: 5px ;
+    border: none;
+}
+.promo{
+    margin-top: 96px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.promo__subscription{
+    font-size: 48px;
+    font-family: "Bold";
+}
+.promo__subscription{
+    font-size: 48px;
+    font-family: "Bold";
+}
+.promo__subscription-small{
+    font-size: 18px;
+    font-family: "Light";
+    max-width: 447;
+}
+
