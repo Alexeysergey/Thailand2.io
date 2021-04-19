@@ -22,3 +22,14 @@ breakpoints: {
     
 }
 });
+
+document.addEventListener("DOMContentLoaded", function(){
+    const button = document.getElementById("header__burger");
+    const navList = document.querySelector(".burger_menu__list");
+    button.addEventListener('click', function(){
+      navList.classList.toggle("active");
+    });
+  
+    console.log(button)
+    console.log(navList)
+  });

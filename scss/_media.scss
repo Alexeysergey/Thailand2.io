@@ -37,6 +37,7 @@
 @media screen and (max-width: 1200px){
 .main_container {
     width: 900px;
+    padding: 0;
     .bunner__content {
 
         margin-top: 252px;
@@ -65,12 +66,25 @@
         line-height: 80px;
          }
          .sale__block-title {
-        font-size: 22px;
+        font-size: 24px;
         line-height: 36px;
         }
         .sale__block-text {  
             font-size: 16px;
         }
+    }
+
+    .main_container>.form__wrapper{
+        padding: 53px 5px;
+    }
+    .form>.main_container{
+        padding: 0;
+    }
+    .form_button{
+        margin-right: 31px;
+    }
+    form.form{
+        margin: 56px auto 0 auto;
     }
 }
 
@@ -83,10 +97,10 @@
         width: 600px;
         .bunner__content {
 
-            margin-top: 152px;
+            margin-top: 132px;
             .bunner__content-h1 {
                 font-size: 105px;}
-        }  
+        } 
     }
     body > .promo {
         margin-top: 76px;
@@ -111,7 +125,8 @@
         line-height: 36px;
         }
         .sale__block-text {  
-            font-size: 10px;
+            font-size: 12px;
+            line-height: 16px;
         }
         .sale__block-button {
             width: 100px;
@@ -119,20 +134,43 @@
             font-size: 12px;
         }
     }
-    .header__burger_menu{
-        display: none;
-    }
+    
     .header__logo > .header__burger{
         display: flex;
+    }
+    ul.header_menu__list{
+        display: none;
+    }
+    .promo>.promo__subscription,
+    .form__wrapper>.promo__subscription {
+        font-size: 40px;
+        font-family: "Bold";
+    }
+    .form__wrapper>.form__section{
+        display: flex;
+        flex-direction: column;
+        .section__second{
+            margin-left: 0;
+        }
     }
 
 }
 @media screen and (max-width: 768px){
     .main_container {
         width: 480px;
+        .bunner__content {
+
+           
+            .bunner__content-h1 {
+                font-size: 105px;}
     }
+}
     .header__burger_menu{
         display: none;
+    }
+    .form__wrapper > .promo__subscription {
+        font-size: 35px;
+        font-family: "Bold";
     }
     .header__burger{
         display: block;
@@ -142,16 +180,15 @@
     }
     
     body > .promo {
-        margin-top: 80px;
-        margin-bottom: 80px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
     body > .sale{
-        margin: 0 auto 80px;
+        margin: 0 auto 50px;
         height: 400px;
     }
-    body > .bunner {
-        
-        height: 435px;
+     body > .bunner{
+        height: 568px;
     }
     .sale .sale__block {
         width: 100%;}
@@ -166,13 +203,9 @@
         line-height: 28px;
         }
         .sale__block-text {  
-            font-size: 8px;
+            font-size: 14px;
         }
-        .sale__block-button {
-            width: 85px;
-            height: 34px;
-            font-size: 10px;
-        }
+       
         
     }
     .promo > .promo__wrapper{
@@ -185,12 +218,51 @@
     display: flex;
     justify-content: center;
 }
+
+.footer_menu__list{
+    flex-direction: column;
+    align-items: center;
+}
+.footer__icons{
+    flex-direction: column;
+}
 }
 
 @media screen and (max-width: 480px){
-   
-}
+    .main_container {
+        width: 100%;
+        padding: 0;
+        .bunner__content {
 
-@media screen and (max-width: 320px){
-   
+        
+            .bunner__content-h1 {
+                font-size: 65px;
+            }
+    }
+}
+.bunner__header>.header__burger_menu {
+    display: none;
+}
+.header__search>.header__search-input {
+    width: 80px;
+}
+.form__container{
+    max-width: 320px;
+}
+.form__section label, div > label {
+    margin-top: 12px;
+    margin-bottom: 3px;
+}
+.content__button.form_button {
+       align-self: center;
+       margin: 20px 0 0 0 ;
+}
+.form__wrapper > .promo__subscription {
+    font-size: 25px;
+    font-family: "Bold";
+}
+.promo > .promo__subscription, .form__wrapper > .promo__subscription {
+    font-size: 32px;
+    font-family: "Bold";
+}
 }
