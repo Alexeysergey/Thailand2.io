@@ -769,7 +769,7 @@ nav {
   position: absolute;
   width: 17px;
   height: 17px;
-  background: url(/images/search.svg) no-repeat;
+  background: url(images/search.svg) no-repeat;
   right: 4px;
 }
 
@@ -991,7 +991,7 @@ nav {
 }
 
 .sale {
-  background: url(/images/SALE.jpg);
+  background: url(images/SALE.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1099,7 +1099,7 @@ nav {
 
 .form {
   margin: 105px auto 0 auto;
-  background: url(/images/form-bg.png);
+  background: url(images/form-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1237,7 +1237,7 @@ label, div > label {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background: url(/images/data.png) no-repeat 90% center;
+  background: url(images/data.png) no-repeat 90% center;
 }
 
 .form__input {
@@ -1254,7 +1254,7 @@ label, div > label {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background: url(/images/arrow.png) no-repeat 95% center;
+  background: url(images/arrow.png) no-repeat 95% center;
 }
 
 option {
